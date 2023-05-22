@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    top: 15vh;
+    color: #616161;
+    text-align: center;
+}
