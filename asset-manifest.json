@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ListerAPP/static/css/main.4b3a53c7.css",
-    "main.js": "/ListerAPP/static/js/main.90e5c00d.js",
+    "main.css": "/ListerAPP/static/css/main.6eaed2ba.css",
+    "main.js": "/ListerAPP/static/js/main.3107cc35.js",
     "index.html": "/ListerAPP/index.html",
-    "main.4b3a53c7.css.map": "/ListerAPP/static/css/main.4b3a53c7.css.map",
-    "main.90e5c00d.js.map": "/ListerAPP/static/js/main.90e5c00d.js.map"
+    "main.6eaed2ba.css.map": "/ListerAPP/static/css/main.6eaed2ba.css.map",
+    "main.3107cc35.js.map": "/ListerAPP/static/js/main.3107cc35.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3a53c7.css",
-    "static/js/main.90e5c00d.js"
+    "static/css/main.6eaed2ba.css",
+    "static/js/main.3107cc35.js"
   ]
 }
