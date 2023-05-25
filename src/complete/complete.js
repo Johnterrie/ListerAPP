@@ -5,7 +5,7 @@ const Complete = () => {
   return (
     <div>
       <main className="main">
-        {/* <p>Click to Mark as Complete</p> */}
+        <p>Click to Mark as Complete</p>
         <p>Right Click to Remove from List</p>
       </main>
     </div>

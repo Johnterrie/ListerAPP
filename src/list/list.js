@@ -18,12 +18,12 @@ const List = () => {
     updatedTodos.splice(index, 1);
     setTodos(updatedTodos);
   };
-
-  const toggleCompletion = (index) => {
-    const updatedTodos = [...todos];
-    console.log(index);
-    updatedTodos[index].isCompleted = !updatedTodos[index].isCompleted;
-    setTodos(updatedTodos);
+  const handleClick = event => {
+    if (event.target.style.textDecoration) {
+      event.target.style.removeProperty('text-decoration');
+    } else {
+      event.target.style.setProperty('text-decoration', 'line-through');
+    }
   };
 
   return (
@@ -42,8 +42,9 @@ const List = () => {
         <ul className="list-ul">
           {todos.map((todo, index) => (
             <li
-              className={todo.isCompleted ? "completed" : "list-item"}
-              onclick={() => toggleCompletion(index)}
+              className="list-item"
+              onClick={(e) => {
+                handleClick(e)}}
               onContextMenu={(e) => {
                 e.preventDefault();
                 removeTodo(index);

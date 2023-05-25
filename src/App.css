@@ -1,3 +1,8 @@
 body {
-    background-color: rgb(232, 229, 229);
+    background-color: rgb(249, 248, 248);
+}
+
+.wikipedia {
+    margin: 10vh 0 0 0;
+    text-align: center;
 }
