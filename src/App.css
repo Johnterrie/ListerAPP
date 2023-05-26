@@ -1,8 +1,22 @@
 body {
-    background-color: rgb(249, 248, 248);
+    background-color: rgb(219, 219, 219);
 }
 
-.wikipedia {
-    margin: 10vh 0 0 0;
-    text-align: center;
+.appOne {
+    height: 100vh;
+}
+
+.button-div {
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    margin: 50vh auto;
+    justify-content: space-between;
+}
+
+button {
+    background-color: rgb(201, 138, 255);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
 }

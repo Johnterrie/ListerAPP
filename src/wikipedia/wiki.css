@@ -1,0 +1,53 @@
+.image-world {
+    width: 24vw;
+    height: 43vh;
+    margin: 0px auto;
+}
+
+.image-div{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.container-item {
+    width: 25vw;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0 0 5px 1px #959595;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.form-div {
+    width: 40vw;
+    height: 10vh;
+    margin: 50px auto;
+}
+
+.input {
+    height: 90%;
+    width: 75%;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.btn-one {
+    width: 23%;
+    height: 85%;
+}

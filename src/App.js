@@ -3,15 +3,21 @@ import Header from "./header/Header";
 import List from "./list/list";
 import Complete from "./complete/complete";
 import "./App.css"
-// import Mainpage from "./wikipediaPage/Mainpage";
+import Wikipedia from "./wikipedia/Wikipedia";
+
 
 function TodoApp() {
   return (
     <>
-      <div >
+      <div className="appOne" >
         <Header />
         <List />
         <Complete />
+      </div>
+
+
+      <div>
+        <Wikipedia/>
       </div>
 
 
